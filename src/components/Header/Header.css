@@ -43,7 +43,6 @@ header {
   max-width: 250px;
   padding-right: 70px;
   text-align: justify;
-  
 }
 
 .contact-info h4 {
@@ -81,4 +80,51 @@ header {
 .container {
   margin: 200px auto 40px auto; 
   padding: 30px;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+  .header-left img {
+    width: 100px; /* Tamanho da imagem reduzido */
+    height: 100px; 
+  }
+
+  .header-left h1 {
+    font-size: 24px; /* Tamanho da fonte reduzido */
+  }
+
+  .header-left h2 {
+    font-size: 16px; /* Tamanho da fonte reduzido */
+  }
+
+  .contact-info {
+    max-width: 150px; /* Tamanho máximo reduzido */
+    padding-right: 20px; /* Reduzindo o padding */
+  }
+
+  .contact-info h4 {
+    font-size: 16px; /* Tamanho da fonte reduzido */
+  }
+
+  .contact-info p {
+    font-size: 12px; /* Tamanho da fonte reduzido */
+  }
+
+  .container {
+    margin: 120px auto 20px auto; /* Ajustando a margem superior */
+    padding: 20px; /* Reduzindo o padding */
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column; /* Mudando para coluna em telas muito pequenas */
+    align-items: flex-start; /* Alinhando à esquerda */
+    padding: 15px; /* Reduzindo o padding */
+  }
+
+  .contact-info {
+    text-align: left; /* Mudando alinhamento para esquerda */
+    padding-right: 0; /* Removendo padding direito */
+  }
 }
