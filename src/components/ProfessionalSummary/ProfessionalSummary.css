@@ -47,7 +47,7 @@
 @media (max-width: 380px) {
   .professional-resume {
     padding: 15px; 
-    margin-top: 300px; /* Aumente se necessário para dispositivos móveis */
+    margin-top: 350px; /* Aumente se necessário para dispositivos móveis */
   }
 
   .professional-resume h4 {
