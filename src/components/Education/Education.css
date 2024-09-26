@@ -1,0 +1,39 @@
+.education-section {
+    background-color: #c4d4d4; 
+    margin-bottom: 30px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .education-item {
+    background-color: #ffffff; 
+    margin: 10px 0; 
+    padding: 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .education-header {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .education-icon {
+    width: 35px; 
+    height: 35px; 
+    margin-right: 10px; 
+    border-radius: 2px;
+  }
+  
+  .education-item h4 {
+    color: darkslategrey; 
+    margin: 0; 
+  
+  .education-item span {
+    display: block; 
+    color: #666; 
+    font-size: 0.9em; 
+  }
+}
+  

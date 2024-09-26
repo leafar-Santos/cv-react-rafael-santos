@@ -1,0 +1,20 @@
+
+.contact-card {
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #007bff;
+  }
+  
+  .contact-card h4 {
+    color: #007bff;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    margin: 0;
+    font-size: 16px;
+  }

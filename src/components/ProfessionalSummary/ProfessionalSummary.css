@@ -1,0 +1,29 @@
+
+.professional-resume {
+    background-color: #c1e1e2;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+    text-align: justify;
+    line-height: 1.5
+  }
+  
+  .professional-resume:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .professional-resume h4 {
+    color:darkslategrey;
+    font-size: 20px;
+  }
+  
+  .professional-resume p {
+    margin-top: -10px;
+  }
+  
