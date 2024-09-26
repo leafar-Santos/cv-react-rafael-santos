@@ -11,6 +11,7 @@ header {
   padding: 20px 20px 20px 40px;
   z-index: 1000;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+
 }
 
 .header-left {
@@ -82,49 +83,58 @@ header {
   padding: 30px;
 }
 
-/* Media Queries para Responsividade */
+
 @media (max-width: 768px) {
+  .header-left {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+
   .header-left img {
-    width: 100px; /* Tamanho da imagem reduzido */
+    width: 100px; 
     height: 100px; 
+    margin-right: 0; 
+    margin-bottom: 10px; 
   }
 
   .header-left h1 {
-    font-size: 24px; /* Tamanho da fonte reduzido */
+    font-size: 24px; 
   }
 
   .header-left h2 {
-    font-size: 16px; /* Tamanho da fonte reduzido */
+    font-size: 16px; 
   }
 
   .contact-info {
-    max-width: 150px; /* Tamanho máximo reduzido */
-    padding-right: 20px; /* Reduzindo o padding */
+    max-width: 150px; 
+    padding-right: 20px; 
+    text-align: center; 
   }
 
   .contact-info h4 {
-    font-size: 16px; /* Tamanho da fonte reduzido */
+    font-size: 16px; 
   }
 
   .contact-info p {
-    font-size: 12px; /* Tamanho da fonte reduzido */
+    font-size: 12px; 
   }
 
   .container {
-    margin: 120px auto 20px auto; /* Ajustando a margem superior */
-    padding: 20px; /* Reduzindo o padding */
-  }
+    margin: 120px auto 20px auto; 
+    padding: 20px; 
 }
 
 @media (max-width: 480px) {
   header {
-    flex-direction: column; /* Mudando para coluna em telas muito pequenas */
-    align-items: flex-start; /* Alinhando à esquerda */
-    padding: 15px; /* Reduzindo o padding */
+    flex-direction: column; 
+    align-items: center; 
+    padding: 15px; 
   }
 
   .contact-info {
-    text-align: left; /* Mudando alinhamento para esquerda */
-    padding-right: 0; /* Removendo padding direito */
+    text-align: center; 
+    padding-right: 0; 
   }
+}
 }

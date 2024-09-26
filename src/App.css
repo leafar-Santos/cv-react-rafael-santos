@@ -1,60 +1,44 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #21566b; /* Cinza claro */
-  color: #333;
-  margin: 0;
-  padding: 0;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 20px 20px 20px 40px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 .container {
-  width: 70%;
-  margin: 200px auto 40px auto; /* Espaço maior no topo para acomodar o cabeçalho fixo */
-  background-color: #ffffff;
+  margin: 200px auto 40px auto; /* Ajuste inicial para desktop */
   padding: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Card padrão */
-.card {
-  background-color: #ffffff;
-  margin-bottom: 30px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-  border: 1px solid #e0e0e0;
-}
-
-.card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Efeito de hover */
-}
-
-.card h4 {
-  color: #007bff;
-  font-size: 20px;
-}
-
-.card p {
-  margin-top: 10px;
 }
 
 /* Media Query para dispositivos móveis */
 @media (max-width: 768px) {
   .container {
     width: 90%; /* Aumenta a largura do container para dispositivos móveis */
-    margin: 100px auto 20px auto; /* Ajusta o espaço superior e inferior */
-    padding: 20px; /* Reduz o padding interno */
+    
+    margin-top: 100px; /* Ajuste de acordo com a altura do cabeçalho */
+    margin-right: auto;
+    margin-bottom: 40px; /* Ajuste conforme necessário */
+    margin-left: auto;
+    padding: 20px; 
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column; 
+    align-items: center; 
+    padding: 15px; 
   }
 
-  .card {
-    padding: 15px; /* Reduz o padding do card */
-  }
-
-  .card h4 {
-    font-size: 18px; /* Ajusta o tamanho da fonte do título */
-  }
-
-  .card p {
-    font-size: 14px; /* Ajusta o tamanho da fonte do parágrafo */
+  .container {
+    margin-top: 80px; /* Ajuste para telas menores */
   }
 }

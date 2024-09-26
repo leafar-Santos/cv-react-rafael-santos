@@ -11,6 +11,7 @@
   border: 1px solid #e0e0e0;
   text-align: justify;
   line-height: 1.5;
+  margin-top: 20px; 
 }
 
 .professional-resume:hover {
@@ -26,10 +27,10 @@
   margin-top: -10px;
 }
 
-
 @media (max-width: 768px) {
   .professional-resume {
     padding: 15px; 
+    margin-top: 100px; /* Aumente se necessário para dispositivos móveis */
   }
 
   .professional-resume h4 {
