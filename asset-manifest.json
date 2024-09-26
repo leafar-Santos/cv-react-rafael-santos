@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cv-react-rafael-santos/static/css/main.5c428556.css",
+    "main.js": "/cv-react-rafael-santos/static/js/main.128eac66.js",
+    "static/js/453.6bf921a5.chunk.js": "/cv-react-rafael-santos/static/js/453.6bf921a5.chunk.js",
+    "static/media/Email.png": "/cv-react-rafael-santos/static/media/Email.1536104a64a0db3bf973.png",
+    "static/media/Telefone.png": "/cv-react-rafael-santos/static/media/Telefone.7943f54a29a4184599e1.png",
+    "static/media/GitHub.png": "/cv-react-rafael-santos/static/media/GitHub.8e2a9e7d53fa4340a09e.png",
+    "static/media/Linkedin.png": "/cv-react-rafael-santos/static/media/Linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/cv-react-rafael-santos/index.html",
+    "main.5c428556.css.map": "/cv-react-rafael-santos/static/css/main.5c428556.css.map",
+    "main.128eac66.js.map": "/cv-react-rafael-santos/static/js/main.128eac66.js.map",
+    "453.6bf921a5.chunk.js.map": "/cv-react-rafael-santos/static/js/453.6bf921a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c428556.css",
+    "static/js/main.128eac66.js"
+  ]
+}
