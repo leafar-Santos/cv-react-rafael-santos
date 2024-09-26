@@ -1,60 +1,105 @@
 .professional-experience {
-    background-color: #c4d4d4;
-    margin-bottom: 30px;
-    padding: 20px; 
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-    border: 1px solid #e0e0e0;
-    text-align: justify;
-    line-height: 1.5;
+  background-color: #c4d4d4;
+  margin-bottom: 30px;
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.professional-experience:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-item {
+  background-color: white; 
+  padding: 15px; 
+  margin-bottom: 15px; 
+  border-radius: 8px; 
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.experience-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.professional-experience h4 {
+  color: darkslategrey;
+  font-size: 20px;
+  margin: 0 0 5px 0; 
+}
+
+.professional-experience p {
+  margin-top: -10px;
+}
+
+.toggle-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.company-icon {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 10px; 
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .professional-experience {
+      padding: 15px; 
   }
-  
-  .professional-experience:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .experience-item {
-    background-color: white; 
-    padding: 15px; 
-    margin-bottom: 15px; 
-    border-radius: 8px; 
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); 
-    transition: box-shadow 0.3s ease; 
-  }
-  
-  .experience-item:hover {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
-  }
-  
+
   .professional-experience h4 {
-    color: darkslategrey;
-    font-size: 20px;
-    margin: 0 0 5px 0; 
+      font-size: 18px;
   }
-  
+
   .professional-experience p {
-    margin-top: -10px;
+      font-size: 14px; 
   }
-  
+
+  .experience-item {
+      padding: 10px; 
+  }
+
   .toggle-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    margin-top: 10px;
+      padding: 8px 12px; 
   }
-  
-  .toggle-button:hover {
-    background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .professional-experience {
+      padding: 10px; 
   }
-  
-  .company-icon {
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px; 
-    vertical-align: middle;
-    border-radius: 5px;
+
+  .professional-experience h4 {
+      font-size: 16px; 
   }
+
+  .professional-experience p {
+      font-size: 12px; 
+  }
+
+  .experience-item {
+      padding: 8px; 
+  }
+
+  .toggle-button {
+      padding: 6px 10px; 
+  }
+}

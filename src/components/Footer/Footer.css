@@ -13,3 +13,24 @@
   color: #777;
   margin: 0; 
 }
+
+
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 12px; 
+  }
+  
+  .footer {
+    padding: 15px 0; 
+  }
+}
+
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 10px; 
+  }
+
+  .footer {
+    padding: 10px 0; 
+  }
+}

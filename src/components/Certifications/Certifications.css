@@ -20,7 +20,6 @@
   display: flex; 
   align-items: center; 
   padding-left: 10px; 
-
 }
 
 .certification-card {
@@ -34,7 +33,6 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   margin-bottom: 10px;
-  
 }
 
 .certification-card:hover {
@@ -79,4 +77,41 @@
 
 .toggle-button:hover {
   background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  .certification-card-container h3 {
+    font-size: 22px; 
+  }
+
+  .certification-card {
+    padding: 10px; 
+  }
+
+  .certification-card span {
+    font-size: 16px; 
+
+  .certification-button, .toggle-button {
+    padding: 8px 12px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .certification-card-container h3 {
+    font-size: 20px; 
+  }
+
+  .certification-card {
+    padding: 8px; 
+  }
+
+  .certification-card span {
+    font-size: 14px; 
+  }
+
+  .certification-button, .toggle-button {
+    padding: 6px 10px; 
+  }
+}
 }

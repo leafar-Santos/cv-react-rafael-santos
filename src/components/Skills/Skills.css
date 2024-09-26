@@ -1,50 +1,71 @@
 .skills-grid-container {
-    background-color: #c4d4d4;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  .skills-grid-container h3 {
-    margin-bottom: 20px;
-    color: #333;
-    font-size: 24px;
-    text-align: left;
-  }
-  
-  .skills-grid {
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 26px; 
-    justify-content: flex-start; 
-  }
-  
+  background-color: #c4d4d4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.skills-grid-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  text-align: left;
+}
+
+.skills-grid {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 16px; 
+  justify-content: flex-start; 
+}
+
+
+.skill-card-grid {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  width: 100px; 
+}
+
+
+@media (max-width: 768px) {
   .skill-card-grid {
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-    width: 100px;
+      width: 80px; 
   }
-  
-  .skill-card-grid:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px) {
+  .skills-grid {
+      gap: 8px; 
   }
-  
-  .skill-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
+
+  .skill-card-grid {
+      width: 70px; 
   }
-  
+
   .skill-card-grid span {
-    font-size: 16px;
-    color: darkslategrey;
-    text-align: center;
+      font-size: 14px; 
   }
-  
+}
+
+.skill-card-grid:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-card-grid span {
+  font-size: 16px;
+  color: darkslategrey;
+  text-align: center;
+}

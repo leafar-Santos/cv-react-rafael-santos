@@ -14,8 +14,6 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-
-
 /* Card padrão */
 .card {
   background-color: #ffffff;
@@ -40,3 +38,23 @@ body {
   margin-top: 10px;
 }
 
+/* Media Query para dispositivos móveis */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Aumenta a largura do container para dispositivos móveis */
+    margin: 100px auto 20px auto; /* Ajusta o espaço superior e inferior */
+    padding: 20px; /* Reduz o padding interno */
+  }
+
+  .card {
+    padding: 15px; /* Reduz o padding do card */
+  }
+
+  .card h4 {
+    font-size: 18px; /* Ajusta o tamanho da fonte do título */
+  }
+
+  .card p {
+    font-size: 14px; /* Ajusta o tamanho da fonte do parágrafo */
+  }
+}

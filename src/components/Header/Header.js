@@ -4,6 +4,7 @@ import Email from    "../../assets/Email.png"
 import Telefone from "../../assets/Telefone.png"
 import Linkedin from "../../assets/Linkedin.png"
 import GitHub from "../../assets/GitHub.png"
+import Perfil from "../../assets/perfil.jpg"
 
 
 import './Header.css'; 
@@ -14,7 +15,7 @@ const Header = () => {
       <header className="header">
         <div className="header-left">
           <img
-            src="./perfil.jpg"
+            src={Perfil}
             alt="Foto de Rafael Santos"
           />
           <div>
@@ -27,10 +28,9 @@ const Header = () => {
         <div className="contact-info">
           <h4>Informações de Contato</h4>
           <p>
-            <img src={Email}
-             alt="Email" className="icon" /> 
-            <a href="leafarccomputacao@gmail.com">leafarccomputacao@gmail.com</a>
-          </p>
+             <img src={Email} alt="Email" className="icon" /> 
+             <a href="mailto:leafarccomputacao@gmail.com">leafarccomputacao@gmail.com</a>
+            </p>
           <p>
             <img src={Telefone} alt="Telefone" className="icon" /> 
             <a href="https://wa.me/5511913339841">(11) 91333-9841</a>

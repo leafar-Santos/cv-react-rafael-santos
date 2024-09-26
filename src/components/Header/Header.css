@@ -5,12 +5,12 @@ header {
   width: 100%;
   background-color: #ffffff;
   display: flex;
-  justify-content: space-between; /* Divide o espaço entre as duas seções */
+  justify-content: space-between; 
   align-items: center;
   border-bottom: 2px solid #e0e0e0;
   padding: 20px 20px 20px 40px;
   z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 .header-left {
