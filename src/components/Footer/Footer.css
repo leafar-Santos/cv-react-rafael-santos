@@ -2,7 +2,7 @@
   width: 100%; 
   position: relative; 
   text-align: center;
-  margin-top: 40px; 
+  margin-top: 30px; 
   padding: 20px 0; 
   background-color: #c4d4d4;
   bottom: 0; 
@@ -13,7 +13,6 @@
   color: #777;
   margin: 0; 
 }
-
 
 @media (max-width: 768px) {
   .footer p {

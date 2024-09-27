@@ -26,7 +26,9 @@ function App() {
       <Certifications></Certifications>
       <Skills></Skills>
       <Languages></Languages>
+
       <Footer></Footer>
+      
     </div>
   );
 }
