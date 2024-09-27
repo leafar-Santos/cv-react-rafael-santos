@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv-react-rafael-santos/static/css/main.4b8e6c90.css",
+    "main.css": "/cv-react-rafael-santos/static/css/main.5155ce80.css",
     "main.js": "/cv-react-rafael-santos/static/js/main.f8d7713c.js",
     "static/js/453.6bf921a5.chunk.js": "/cv-react-rafael-santos/static/js/453.6bf921a5.chunk.js",
     "static/media/perfil.jpg": "/cv-react-rafael-santos/static/media/perfil.f15991f3b2da5fb9ff50.jpg",
@@ -9,12 +9,12 @@
     "static/media/GitHub.png": "/cv-react-rafael-santos/static/media/GitHub.8e2a9e7d53fa4340a09e.png",
     "static/media/Linkedin.png": "/cv-react-rafael-santos/static/media/Linkedin.f249b38224ca41a0b909.png",
     "index.html": "/cv-react-rafael-santos/index.html",
-    "main.4b8e6c90.css.map": "/cv-react-rafael-santos/static/css/main.4b8e6c90.css.map",
+    "main.5155ce80.css.map": "/cv-react-rafael-santos/static/css/main.5155ce80.css.map",
     "main.f8d7713c.js.map": "/cv-react-rafael-santos/static/js/main.f8d7713c.js.map",
     "453.6bf921a5.chunk.js.map": "/cv-react-rafael-santos/static/js/453.6bf921a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b8e6c90.css",
+    "static/css/main.5155ce80.css",
     "static/js/main.f8d7713c.js"
   ]
 }
