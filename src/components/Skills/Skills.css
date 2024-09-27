@@ -79,6 +79,46 @@
 }
 
 
+@media (max-width: 432px) {
+  .skills-grid {
+      gap: 8px; 
+      padding-left: 50px;
+     
+     
+  }
+  .skills-grid-container h3{
+   padding-left: 40px;
+   font-size: 20px; 
+   
+}
+
+  .skill-card-grid {
+      width: 60px; 
+  }
+
+  .skill-card-grid span {
+      font-size: 10px; 
+  }
+}
+
+.skill-card-grid:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-card-grid span {
+  font-size: 16px;
+  color: darkslategrey;
+  text-align: center;
+}
+
+
+
 @media (max-width: 370px) {
   .skills-grid {
       gap: 8px;
