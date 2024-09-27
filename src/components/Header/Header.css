@@ -44,7 +44,7 @@ header {
   justify-content: flex-start;
   margin-left: 20px;
   text-align: left;
-  padding-inline: 90px;
+  margin-right: 100px;
 }
 
 .contact-info h4 {
@@ -120,6 +120,7 @@ header {
     margin-left: 20px;
     font-size: 12px;
     text-align: left;
+    margin-right: 10px;
   }
 
   .contact-info h4 {
@@ -171,6 +172,7 @@ header {
     margin-left: 15px;
     font-size: 10px;
     text-align: left;
+    margin-right: auto;
   }
 
   .contact-info h4 {
