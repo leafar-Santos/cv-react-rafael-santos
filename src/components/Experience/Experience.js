@@ -98,10 +98,10 @@ function Experience() {
   return (
     <section className="professional-experience">
       <h3>Experiência Profissional</h3>
-      {experiences.slice(0, isExpanded ? experiences.length : 3).map((exp, index) => (
+      {experiences.slice(0, isExpanded ? experiences.length : 2).map((exp, index) => (
         <ExperienceItem key={index} {...exp} />
       ))}
-      {experiences.length > 4 && (
+      {experiences.length > 2 && (
         <button onClick={toggleExpand} className="toggle-button">
           {isExpanded ? "Ver Menos" : "Ver Mais"}
         </button>

@@ -82,8 +82,8 @@
 @media (max-width: 432px) {
   .skills-grid {
       gap: 8px; 
-      padding-left: 50px;
-     
+      padding-left: 25px;
+
      
   }
   .skills-grid-container h3{
@@ -92,8 +92,11 @@
    
 }
 
+
   .skill-card-grid {
-      width: 60px; 
+      width: 100px; 
+  
+      
   }
 
   .skill-card-grid span {
