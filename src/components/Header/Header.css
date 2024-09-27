@@ -84,7 +84,7 @@ header {
 
 @media (max-width: 768px) {
   header {
-    position: relative; /* Alterado para não ser fixo em dispositivos móveis */
+    position: relative; 
   }
 
   .header-left {
@@ -123,7 +123,7 @@ header {
   }
 
   .container {
-    margin: 120px auto 20px auto; 
+    margin: auto auto 20px auto; 
     padding: 20px; 
   }
 }
