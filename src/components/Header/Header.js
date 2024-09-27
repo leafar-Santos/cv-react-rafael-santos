@@ -29,7 +29,7 @@ const Header = () => {
           <h4>Informações de Contato</h4>
           <p>
              <img src={Email} alt="Email" className="icon" /> 
-             <a href="mailto:leafarccomputacao@gmail.com">leafarccomputacao@gmail.com</a>
+             <a href="mailto:leafarccomputacao@gmail.com">Envie um e-mail</a>
             </p>
           <p>
             <img src={Telefone} alt="Telefone" className="icon" /> 
