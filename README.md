@@ -11,6 +11,5 @@
 </figure>
 
 # Para executar o projeto
-Clone o projeto em sua máquina.
-No diretório do projeto, você pode executar:
-
+<p>Clone o projeto em sua máquina.</p>
+<p>No diretório do projeto, você pode executar:</p>
