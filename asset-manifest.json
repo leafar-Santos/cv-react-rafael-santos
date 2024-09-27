@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-react-rafael-santos/static/css/main.7ee71813.css",
-    "main.js": "/cv-react-rafael-santos/static/js/main.5917f10e.js",
+    "main.css": "/cv-react-rafael-santos/static/css/main.710e067b.css",
+    "main.js": "/cv-react-rafael-santos/static/js/main.04587116.js",
     "static/js/453.6bf921a5.chunk.js": "/cv-react-rafael-santos/static/js/453.6bf921a5.chunk.js",
     "static/media/perfil.jpg": "/cv-react-rafael-santos/static/media/perfil.f15991f3b2da5fb9ff50.jpg",
     "static/media/Email.png": "/cv-react-rafael-santos/static/media/Email.1536104a64a0db3bf973.png",
@@ -9,12 +9,12 @@
     "static/media/GitHub.png": "/cv-react-rafael-santos/static/media/GitHub.8e2a9e7d53fa4340a09e.png",
     "static/media/Linkedin.png": "/cv-react-rafael-santos/static/media/Linkedin.f249b38224ca41a0b909.png",
     "index.html": "/cv-react-rafael-santos/index.html",
-    "main.7ee71813.css.map": "/cv-react-rafael-santos/static/css/main.7ee71813.css.map",
-    "main.5917f10e.js.map": "/cv-react-rafael-santos/static/js/main.5917f10e.js.map",
+    "main.710e067b.css.map": "/cv-react-rafael-santos/static/css/main.710e067b.css.map",
+    "main.04587116.js.map": "/cv-react-rafael-santos/static/js/main.04587116.js.map",
     "453.6bf921a5.chunk.js.map": "/cv-react-rafael-santos/static/js/453.6bf921a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ee71813.css",
-    "static/js/main.5917f10e.js"
+    "static/css/main.710e067b.css",
+    "static/js/main.04587116.js"
   ]
 }
