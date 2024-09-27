@@ -8,13 +8,13 @@ function Education() {
 
   const educations = [
     {
-      institution: "Unisersidade Paulista",
+      institution: "Universidade Paulista",
       degree: "Pós-graduação em Engenharia de Software",
       period: "Maio de 2022 - Junho de 2023",
       icon: Unip 
     },
     {
-      institution: "Unisersidade Paulista",
+      institution: "Universidade Paulista",
       degree: "Bacharelado em Ciência da Computação",
       period: "Fevereiro de 2011 - Janeiro de 2015",
       icon: Unip 

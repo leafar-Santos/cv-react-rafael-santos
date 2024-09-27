@@ -8,7 +8,7 @@
   border: 1px solid #e0e0e0;
   text-align: justify;
   line-height: 1.5;
-  overflow: hidden; /* Previne overflow */
+  overflow: hidden; 
 }
 
 .professional-experience:hover {
@@ -22,6 +22,7 @@
   border-radius: 8px; 
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); 
   transition: box-shadow 0.3s ease; 
+  
 }
 
 .experience-item:hover {
@@ -32,25 +33,35 @@
   color: darkslategrey;
   font-size: 20px;
   margin: 0 0 5px 0; 
+  padding:5px;
+ 
 }
+
+.professional-experience span {
+  padding:5px;
+  font-weight: 500;
+}
+
+
+.professional-experience h3 {
+  margin: 15px auto 10px auto;
+  color: #333;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 10px; 
+}
+
 
 .professional-experience p {
-  margin-top: 0; /* Removendo o valor negativo para evitar cortes */
-  overflow: auto; /* Para garantir que o conteúdo se ajuste */
+  margin-top: 0;
+  overflow: auto;
+ 
 }
 
-.toggle-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.toggle-button:hover {
-  background-color: #0056b3;
+.professional-experience ul {
+  list-style: none;
+  line-height: 1.8;
+  padding: 5px;
 }
 
 .company-icon {

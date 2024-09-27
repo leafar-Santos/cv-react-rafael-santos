@@ -6,6 +6,14 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
 }
 
+.education-section h3 {
+  margin: 15px auto 20px auto;
+  color: #333;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 10px; 
+}
+
 .education-item {
   background-color: #ffffff; 
   margin: 10px 0; 
@@ -30,6 +38,8 @@
   color: darkslategrey; 
   margin: 0; 
 }
+
+
 
 .education-item span {
   display: block; 

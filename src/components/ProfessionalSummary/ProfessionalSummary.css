@@ -1,61 +1,73 @@
 .professional-resume {
   background-color: #c1e1e2;
   margin-bottom: 30px;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 10px;
+  padding: 10px 30px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   border: 1px solid #e0e0e0;
   text-align: justify;
   line-height: 1.5;
-  margin-top: 20px; 
+  margin-top: 20px;
+  height: auto;
+  overflow: hidden;
+}
+
+.resume-content.collapsed {
+  height: 200px; 
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.resume-content.expanded {
+  height: auto; 
 }
 
 .professional-resume:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
-.professional-resume h4 {
+.professional-resume h2 {
   color: darkslategrey;
-  font-size: 20px;
+  font-size: 28px;
+  margin: 2px auto auto auto;
+  font-size: 24px;
+  text-align: left;
+ 
 }
 
+
 .professional-resume p {
-  margin-top: -10px;
+  margin-top: auto;
 }
+
 
 @media (max-width: 768px) {
   .professional-resume {
-    padding: 15px; 
-    margin-top: 20px; /* Aumente se necessário para dispositivos móveis */
+    padding: 15px;
+    margin-top: 90px;
   }
 
   .professional-resume h4 {
-    font-size: 18px; 
+    font-size: 18px;
   }
 
   .professional-resume p {
-    font-size: 14px; 
+    font-size: 14px;
   }
-
-
 }
 
 @media (max-width: 380px) {
   .professional-resume {
-    padding: 15px; 
-    margin-top: 20px; /* Aumente se necessário para dispositivos móveis */
+    padding: 15px;
+    margin-top: 100px;
   }
 
   .professional-resume h4 {
-    font-size: 18px; 
+    font-size: 18px;
   }
 
   .professional-resume p {
-    font-size: 14px; 
+    font-size: 14px;
   }
-
 }

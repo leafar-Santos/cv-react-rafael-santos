@@ -19,7 +19,7 @@
   margin-bottom: 15px;
   display: flex; 
   align-items: center; 
-  padding: 10px; 
+  padding: auto; 
 }
 
 .certification-card {
@@ -66,21 +66,6 @@
 .certification-button:hover {
   background-color: #0056b3;
 }
-
-.toggle-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.toggle-button:hover {
-  background-color: #0056b3;
-}
-
 
 @media (max-width: 768px) {
   .certification-card-container h3 {

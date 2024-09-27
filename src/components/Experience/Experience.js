@@ -98,7 +98,7 @@ function Experience() {
   return (
     <section className="professional-experience">
       <h3>Experiência Profissional</h3>
-      {experiences.slice(0, isExpanded ? experiences.length : 4).map((exp, index) => (
+      {experiences.slice(0, isExpanded ? experiences.length : 3).map((exp, index) => (
         <ExperienceItem key={index} {...exp} />
       ))}
       {experiences.length > 4 && (
@@ -117,7 +117,7 @@ function ExperienceItem({ company, icon, role, period, location, responsibilitie
         <img src={icon} alt={`${company} logo`} className="company-icon" /> {company}
       </h4>
       <span>
-        {role} | {period} | {location}
+      <strong>{role}</strong> | {period} | {location}
       </span>
       <ul>
         {responsibilities.map((item, index) => (
