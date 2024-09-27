@@ -12,4 +12,4 @@
 
 # Para executar o projeto
 <p>Clone o projeto em sua máquina.</p>
-<p>No diretório do projeto, você pode executar:</p>
+<p>No diretório do projeto, execute: npm start</p>
