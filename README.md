@@ -2,7 +2,7 @@
 
 <p>Implementação em Dispositivos móveis:</p>
 <figure>
-  <img src="./public/IMG-Mobile.jpeg"/>
+  <img src="./public/IMG-Mobile.jpeg" width="375" height="667" />
 </figure>
 
 <p>Implementação em em computadores:</p>
