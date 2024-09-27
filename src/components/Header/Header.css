@@ -5,7 +5,7 @@ header {
   width: 100%;
   background-color: #ffffff;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #e0e0e0;
   padding: 20px 20px 20px 40px;
@@ -39,10 +39,11 @@ header {
 }
 
 .contact-info {
-  text-align: right;
-  max-width: 250px;
-  padding-right: 70px;
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px;
+  text-align: left;
 }
 
 .contact-info h4 {
@@ -82,61 +83,105 @@ header {
   padding: 30px;
 }
 
+/* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
   header {
-    position: relative; 
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-start;
   }
 
   .header-left {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
   }
 
   .header-left img {
-    width: 100px; 
-    height: 100px; 
-    margin-right: 0; 
-    margin-bottom: 10px; 
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
   }
 
   .header-left h1 {
-    font-size: 24px; 
+    font-size: 24px;
+    margin: 0;
   }
 
   .header-left h2 {
-    font-size: 16px; 
+    font-size: 16px;
+    margin: 0;
   }
 
   .contact-info {
-    max-width: 150px; 
-    padding-right: 20px; 
-    text-align: center; 
+    margin-left: 20px;
+    font-size: 12px;
+    text-align: left;
   }
 
   .contact-info h4 {
-    font-size: 16px; 
+    font-size: 14px;
   }
 
   .contact-info p {
-    font-size: 12px; 
+    font-size: 12px;
   }
 
   .container {
-    margin: auto auto 20px auto; 
-    padding: 20px; 
+    margin: 120px auto 20px auto;
+    padding: 20px;
   }
 }
 
+/* Estilos para dispositivos com largura máxima de 480px */
 @media (max-width: 480px) {
   header {
-    flex-direction: column; 
-    align-items: center; 
-    padding: 15px; 
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    justify-content: flex-start;
+  }
+
+  .header-left {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .header-left img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+  }
+
+  .header-left h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .header-left h2 {
+    font-size: 14px;
+    margin: 0;
   }
 
   .contact-info {
-    text-align: center; 
-    padding-right: 0; 
+    margin-left: 15px;
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .contact-info h4 {
+    font-size: 12px;
+  }
+
+  .contact-info p {
+    font-size: 10px;
+  }
+
+  .container {
+    margin: 100px auto 20px auto;
+    padding: 20px;
   }
 }
