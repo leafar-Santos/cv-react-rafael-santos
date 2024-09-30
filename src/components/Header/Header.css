@@ -1,4 +1,4 @@
-header {
+header { 
   position: fixed;
   top: 0;
   left: 0;
@@ -68,6 +68,10 @@ header {
   text-decoration: underline;
 }
 
+.contact-info a:focus {
+  outline: 2px solid #0056b3; /* Indicação de foco */
+}
+
 .contact-info .icon {
   width: 20px; 
   height: 20px;
@@ -84,6 +88,8 @@ header {
   padding: 30px;
 }
 
+
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
   header {
@@ -91,13 +97,6 @@ header {
     align-items: center;
     padding: 10px;
     justify-content: flex-start;
-  }
-
-  .header-left {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
   }
 
   .header-left img {
@@ -108,48 +107,32 @@ header {
 
   .header-left h1 {
     font-size: 24px;
-    margin: 0;
   }
 
   .header-left h2 {
     font-size: 16px;
-    margin: 0;
   }
 
   .contact-info {
     margin-left: 20px;
     font-size: 12px;
-    text-align: left;
     margin-right: 10px;
   }
 
-  .contact-info h4 {
-    font-size: 14px;
-  }
-
-  .contact-info p {
-    font-size: 12px;
-  }
-
   .container {
-    margin: 120px auto 20px auto;
+    margin: 130px auto 20px auto;
     padding: 20px;
+  }
+
+  .print-button {
+    display: none;
   }
 }
 
-/* Estilos para dispositivos com largura máxima de 480px */
+
 @media (max-width: 480px) {
   header {
-    flex-direction: row;
-    align-items: center;
     padding: 8px;
-    justify-content: flex-start;
-  }
-
-  .header-left {
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
   }
 
   .header-left img {
@@ -160,31 +143,91 @@ header {
 
   .header-left h1 {
     font-size: 18px;
-    margin: 0;
   }
 
   .header-left h2 {
     font-size: 14px;
-    margin: 0;
   }
 
   .contact-info {
     margin-left: 15px;
     font-size: 10px;
-    text-align: left;
     margin-right: auto;
   }
 
-  .contact-info h4 {
-    font-size: 12px;
+  .container {
+    margin: 140px auto 20px auto;
+    padding: 20px;
+  }
+  .print-button {
+    display: none;
+  }
+}
+
+@media (max-width: 370px) {
+  header {
+    padding: 8px;
   }
 
-  .contact-info p {
+  .header-left img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+  }
+
+  .header-left h1 {
+    font-size: 18px;
+  }
+
+  .header-left h2 {
+    font-size: 14px;
+  }
+
+  .contact-info {
+    margin-left: 15px;
     font-size: 10px;
+    margin-right: auto;
   }
 
   .container {
-    margin: 100px auto 20px auto;
+    margin: 140px auto 20px auto;
     padding: 20px;
+  }
+  .print-button {
+    display: none;
+  }
+}
+
+
+@media print {
+  header {
+    position: absolute; 
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+    z-index: 1000;
+    padding: 20px 40px;
+    page-break-after: always; 
+  }
+
+
+  header ~ * {
+    page-break-before: avoid;
+  }
+
+
+  @page {
+    margin-top: 10mm; 
+  }
+
+  
+  .container {
+    margin-top: 150px; 
+  }
+
+  
+  .print-button {
+    display: none;
   }
 }
