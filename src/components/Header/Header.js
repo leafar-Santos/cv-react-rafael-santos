@@ -25,7 +25,7 @@ const Header = () => {
        
        </div>
           <div>
-            <h1>Rafael S Santos</h1>
+            <h1>Rafael Santos</h1>
             <h2>QA Automation Engineer</h2>
           </div>
         </div>
