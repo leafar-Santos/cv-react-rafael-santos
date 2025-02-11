@@ -47,7 +47,7 @@ function Experience() {
     {
       company: "Intelipost",
       icon: Intelipost,
-      role: "Analista de qualidade de sistemas Sênior",
+      role: "Analista de qualidade Sênior",
       period: "Novembro de 2020 - Agosto de 2021",
       location: "São Paulo",
       responsibilities: [
