@@ -95,7 +95,7 @@ function Certifications() {
     {
       title: "Spring Boot 2.x - Minha Primeira API",
       icon: Udemy,
-      link: "https://www.udemy.com/certificate/UC-7f047edf-6243-4786-9b20-82be2f223b3c/"
+      link: "https://www.udemy.com/certificate/UC-1431711a-c36a-4844-b8f8-1bd6b82fb700/"
     },
     {
       title: "Requisitos de Software",
@@ -127,7 +127,7 @@ function Certifications() {
 
   return (
     <section className="certification-card-container">
-      <h3>Certificações</h3>
+      <h3>Treinamentos técnicos</h3>
       <ul>
         {certifications.slice(0, isExpanded ? certifications.length : 5).map((cert, index) => (
           <CertificationItem key={index} {...cert} />

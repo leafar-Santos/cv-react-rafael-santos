@@ -3,8 +3,9 @@ import "./Experience.css";
 // Importando os ícones
 import Intelipost from "../../assets/Intelipost.jpg" 
 import Telematica from "../../assets/Telematica.jpg"
-import Metaxix from "../../assets/Metaxix.jpg"
+import Metaxix from "../../assets/Metasix.png"
 import PedePronto from "../../assets/PedePronto.jpg"
+import Claro from "../../assets/Claro.png"
 
 function Experience() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -14,21 +15,39 @@ function Experience() {
       company: "Pede Pronto",
       icon: PedePronto,
       role: "Engenheiro QA",
-      period: "Agosto de 2021 - Presente",
-      location: "São Paulo",
+      period: "Agosto de 2021 - Dezembro 2024",
+      location: "São Paulo", 
       responsibilities: [
-        'Sou responsável pela elaboração dos planos de testes das features da equipe da qual faço parte, responsável pela criação e aplicação dos cenários de testes.',
-        'Atuo com testes funcionais, teste de API, testes de usabilidade, testes de regressão, testes de aceitação, testes de manutenção e testes unitários, testes regressivos.',
+        'Fui responsável pela elaboração dos planos de testes das features da equipe da qual faço parte, responsável pela criação e aplicação dos cenários de testes.',
+        'Atuei com testes funcionais, teste de API, testes de usabilidade, testes de regressão, testes de aceitação, testes de manutenção e testes unitários, testes regressivos.',
         'Fui responsável pelo lavantamento de cenários e pela automação de testes de API e de testes Web e teste Mobile.',
         'Realizei automação de testes com Java, JUnit5, RestAssured, Cypress, Appium e Cucumber',
-        'Atuo utilizando ativamente o framework Scrum. Tenho experiência com as ferramentas Jira e Azure.',
-        'Realizo validação de dados em base de dados relacional e Não relacional.'
+        'Atuei utilizando ativamente o framework Scrum. Tenho experiência com as ferramentas Jira e Azure.',
+        'Realizei validação de dados em base de dados relacional e Não relacional.'
+      ],
+    },
+    {
+      company: "Claro SA",
+      icon: Claro,
+      role: "Engenheiro QA",
+      period: "Abril de 2022 - Fevereiro 2023",
+      location: "São Paulo",
+      responsibilities: [
+        'Criei e executei testes manuais para garantir a qualidade de aplicativos mobile (Android e iOS).',
+        'Desenvolvi e mantive testes automatizados com Java e Appium, assegurando a estabilidade e performance do app.',
+        'Realizei testes de experiência do usuário, testando a usabilidade, compatibilidade e desempenho do aplicativo em diferentes dispositivos.',
+        'Gerei relatórios detalhados sobre a execução dos testes, com ferramenta Xray',
+        'Atuei utilizando metodologias ágeis buscando contribuir para a melhoria contínua do processo de desenvolvimento e testes.',
+        'Realizei testes de aquisição de contas, validando tipos de plano disponíveis para cada perfil de usuário',
+        'Testei APIs de forma manual com postman e automatizada, utilizando RestAssured e Java, para garantir a comunicação eficiente entre os sistemas.',
+        'Colaborei de perto com desenvolvedores, designers e gerentes de produto para identificar e corrigir possíveis problemas.',
+       
       ],
     },
     {
       company: "Intelipost",
       icon: Intelipost,
-      role: "Senior Software QA Engineer",
+      role: "Analista de qualidade de sistemas Sênior",
       period: "Novembro de 2020 - Agosto de 2021",
       location: "São Paulo",
       responsibilities: [
@@ -43,9 +62,9 @@ function Experience() {
       ],
     },
     {
-      company: "Quality Assurance Team Lead",
+      company: "Metasix Tecnologia",
       icon: Metaxix,
-      role: "Senior Software QA Engineer",
+      role: "Quality Assurance Team Lead",
       period: "Junho de 2020 - Novembro de 2020",
       location: "São Paulo",
       responsibilities: [
@@ -58,9 +77,9 @@ function Experience() {
       ],
     },
     {
-      company: "Analista de Qualidade",
+      company: "Metasix Tecnologia",
       icon: Metaxix,
-      role: "Senior Software QA Engineer",
+      role: "Analista de Qualidade",
       period: "Março de 2019 -Junho de 2020",
       location: "São Paulo",
       responsibilities: [
@@ -71,11 +90,12 @@ function Experience() {
         'Atuei com automação de testes WEB utilizando Selenium, API Utilzando Java e RestAssures e Mobile utilizando Java e Appium',
       ],
     },
+  
     {
       company: "Telemática Sistemas Inteligentes",
       icon: Telematica,
-      role: "Estagiário de garantia de qualidade",
-      period: "Fevereiro de 2014 - Fevereiro 2015",
+      role: "Analista de Qualidade",
+      period: "Fevereiro de 2014 - Março 2017",
       location: "São Paulo",
       responsibilities: [
         'Junto ao time de engenharia de Produto atuei apoiando na criação de testes em novos produtos. Realizei testes funcionais de softwares e equipamentos construídos / adquiridos pela empresa.',
@@ -110,7 +130,7 @@ function Experience() {
   );
 }
 
-function ExperienceItem({ company, icon, role, period, location, responsibilities }) {
+function ExperienceItem({ company, icon, role, period, location, product, description, responsibilities }) {
   return (
     <div className="experience-item">
       <h4>
@@ -119,6 +139,7 @@ function ExperienceItem({ company, icon, role, period, location, responsibilitie
       <span>
       <strong>{role}</strong> | {period} | {location}
       </span>
+
       <ul>
         {responsibilities.map((item, index) => (
           <li key={index}>{item}</li>
